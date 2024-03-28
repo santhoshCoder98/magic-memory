@@ -71,7 +71,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1> Magic Game </h1>
+      <h1> Magic Memory </h1>
       <button onClick={shuffleCards}>New Game</button>
       <div className="card-grid">
         {cards.map((card) => (
